@@ -1,0 +1,125 @@
+{
+  "plots": [
+    [
+      "plot",
+      "district",
+      "rain_zone",
+      "bearing_trees",
+      "primary_grade"
+    ],
+    [
+      "plot"
+    ]
+  ],
+  "samples": [
+    [
+      "plot",
+      "day",
+      "sampled_trees",
+      "mass_tree_kg",
+      "mature_kg",
+      "reported_at"
+    ],
+    [
+      "plot",
+      "day"
+    ]
+  ],
+  "picking": [
+    [
+      "plot",
+      "day",
+      "harvested_kg",
+      "direct_kg",
+      "received_kg",
+      "limit_reason",
+      "known_at"
+    ],
+    [
+      "plot",
+      "day"
+    ]
+  ],
+  "forecasts": [
+    [
+      "rain_zone",
+      "target_day",
+      "issued_at",
+      "rain_mm",
+      "low_c"
+    ],
+    [
+      "rain_zone",
+      "target_day",
+      "issued_at"
+    ]
+  ],
+  "road_log": [
+    [
+      "rain_zone",
+      "service_day",
+      "passable",
+      "known_at",
+      "note"
+    ],
+    [
+      "rain_zone",
+      "service_day"
+    ]
+  ],
+  "route_capacity": [
+    [
+      "plot",
+      "hub",
+      "route_class"
+    ],
+    [
+      "plot",
+      "hub"
+    ]
+  ],
+  "hub_days": [
+    [
+      "hub",
+      "day",
+      "receiving_kg"
+    ],
+    [
+      "hub",
+      "day"
+    ]
+  ],
+  "requests": [
+    [
+      "request",
+      "market",
+      "first_day",
+      "last_day",
+      "grade",
+      "kg",
+      "shortfall_limit",
+      "can_combine",
+      "can_switch_hub"
+    ],
+    [
+      "request"
+    ]
+  ],
+  "commitments": [
+    [
+      "reference",
+      "request",
+      "plot",
+      "hub",
+      "promised_day",
+      "quantity_kg",
+      "status",
+      "occurred_at"
+    ],
+    [
+      "reference",
+      "status",
+      "occurred_at"
+    ]
+  ]
+}
