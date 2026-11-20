@@ -1,2 +1,3 @@
 numpy==1.26.4
 scipy==1.13.1
+# 本仓库以可编辑包方式安装：python -m pip install -e .
